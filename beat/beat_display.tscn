@@ -1,0 +1,125 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://beat/beat_display.gd" type="Script" id=1]
+[ext_resource path="res://beat/beat_tick.tscn" type="PackedScene" id=2]
+
+[node name="BeatDisplay" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="1" parent="." instance=ExtResource( 2 )]
+
+[node name="1a" parent="." instance=ExtResource( 2 )]
+margin_left = 50.0
+margin_top = 15.0
+margin_right = 60.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="2" parent="." instance=ExtResource( 2 )]
+margin_left = 70.0
+margin_top = 10.0
+margin_right = 90.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 10, 10 )
+tick_type = 1
+
+[node name="2a" parent="." instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 15.0
+margin_right = 110.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="3" parent="." instance=ExtResource( 2 )]
+margin_left = 120.0
+margin_top = 10.0
+margin_right = 140.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 10, 10 )
+tick_type = 1
+
+[node name="3a" parent="." instance=ExtResource( 2 )]
+margin_left = 150.0
+margin_top = 15.0
+margin_right = 160.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="4" parent="." instance=ExtResource( 2 )]
+margin_left = 170.0
+margin_top = 10.0
+margin_right = 190.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 10, 10 )
+tick_type = 1
+
+[node name="4a" parent="." instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 15.0
+margin_right = 210.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="5" parent="." instance=ExtResource( 2 )]
+margin_left = 220.0
+margin_right = 260.0
+
+[node name="5a" parent="." instance=ExtResource( 2 )]
+margin_left = 270.0
+margin_top = 15.0
+margin_right = 280.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="6" parent="." instance=ExtResource( 2 )]
+margin_left = 290.0
+margin_top = 10.0
+margin_right = 310.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 10, 10 )
+tick_type = 1
+
+[node name="6a" parent="." instance=ExtResource( 2 )]
+margin_left = 320.0
+margin_top = 15.0
+margin_right = 330.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="7" parent="." instance=ExtResource( 2 )]
+margin_left = 340.0
+margin_top = 10.0
+margin_right = 360.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 10, 10 )
+tick_type = 1
+
+[node name="7a" parent="." instance=ExtResource( 2 )]
+margin_left = 370.0
+margin_top = 15.0
+margin_right = 380.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
+
+[node name="8" parent="." instance=ExtResource( 2 )]
+margin_left = 390.0
+margin_top = 10.0
+margin_right = 410.0
+margin_bottom = 30.0
+rect_pivot_offset = Vector2( 10, 10 )
+tick_type = 1
+
+[node name="8a" parent="." instance=ExtResource( 2 )]
+margin_left = 420.0
+margin_top = 15.0
+margin_right = 430.0
+margin_bottom = 25.0
+rect_pivot_offset = Vector2( 5, 5 )
+tick_type = 2
